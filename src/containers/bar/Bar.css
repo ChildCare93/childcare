@@ -1,0 +1,12 @@
+.bar {
+    padding: 10px 120px;
+    background-color: #5bc1ac;
+    width: 100%;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.bar-icon {
+    padding: auto 10px;
+    color: #ffffff !important;
+}

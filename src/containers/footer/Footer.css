@@ -1,0 +1,37 @@
+#section_6 {
+    top: 550px;
+    position: relative;
+    overflow: hidden;
+}
+
+.site-footer-top {
+    background-color: #495057;
+    padding: 4px;
+}
+
+.site-footer-bottom {
+    background-color: #6c757d;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.site-footer-title {
+    font-size: 24px;
+    color: #5bc1ac;
+}
+
+.logo {
+    height: 100px;
+}
+
+.footer-menu-link,
+.site-footer-link {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu-item {
+    list-style-type: none;
+}
