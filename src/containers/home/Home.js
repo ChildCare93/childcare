@@ -9,7 +9,12 @@ import receive from '../../assets/images/icons/receive.png';
 import heart from '../../assets/images/icons/heart.png';
 import teamImage from '../../assets/images/team.jpg';
 import FarmImage from '../../assets/images/20170630_173123.jpg';
+import ChildrenImage from '../../assets/images/children_study.jpeg';
+import ChildrenEating from '../../assets/images/children_eating.jpeg';
 import logo from '../../assets/images/cco_logo.jpeg';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsTelephoneFill } from 'react-icons/bs';
+import { GoLocation } from 'react-icons/go';
 
 const Home = () => {
   return (
@@ -22,34 +27,42 @@ const Home = () => {
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src={WomenEmpowerment1} class="d-block w-100" alt="..." height="500px" />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
+                  <h5>Banzara Art Bags Making</h5>
+                  {/* <p>Some representative placeholder content for the first slide.</p> */}
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src={ChildrenEating} class="d-block w-100" alt="..." height="500px" />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Mid Day Meal</h5>
+                  {/* <p>Post Sewing machine training , distribution of certificates</p> */}
                 </div>
               </div>
               <div class="carousel-item">
                 <img src={WomenEmpowerment2} class="d-block w-100" alt="..." height="500px" />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
+                  <h5>Certificate Distribution</h5>
+                  <p>Post Sewing machine training , distribution of certificates</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src={Agriculture1} class="d-block w-100" alt="..." height="500px" />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
+                  <h5>FPO Supported Activity</h5>
+                  {/* <p>Some representative placeholder content for the third slide.</p> */}
                 </div>
               </div>
               <div class="carousel-item">
                 <img src={Agriculture2} class="d-block w-100" alt="..." height="500px" />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Fourth slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
+                  <h5>Distribution of Ramb Lamb</h5>
+                  <p>Distribution of ramb lamb to ST farmers supported by NABARD.</p>
                 </div>
               </div>
             </div>
@@ -99,17 +112,18 @@ const Home = () => {
               </div>
               <div className='m-2'>
                 <div className='OurStoryBrief'>
-                  <div className='heading2 mb-2'>Our Story</div>
+                  <div className='heading2 mb-1'>Our Story</div>
                   <div className='subheading mb-3'>Child Care Organization, Non-Profit Organization</div>
                   <div>
-                    This is a Bootstrap 5.2.2 CSS template for charity organization websites.
-                    You can feel free to use it. Please tell your friends about TemplateMo website. Thank you.
-                    Our Mission
+                    We have started Child Care Organization, a Non-Profit organization in 1993 to support and help Differently Abled Children in
+                    their education and livelyhood. But have expanded to help women by conducting trainings on sewing machine and some small scale
+                    works for their financial stability and with help of NABARD we have taken to help farmers and Rural tribes in farming trainings
+                    in using organic and natural pesticides and in practicing organic farming.
                   </div>
                 </div>
                 <div className='d-flex justify-content-between'>
                   <div className='OurStoryBrief'>
-                    <div className='heading2 mb-2'>Our Mission</div>
+                    <div className='heading2 mb-1'>Our Mission</div>
                     <div className=''>Our Mission is to</div>
                     <div>
                       <ul>
@@ -120,7 +134,7 @@ const Home = () => {
                     </div>
                   </div>
                   <div className='OurStoryBrief px-4'>
-                    <div className='foundedYear'>2009</div>
+                    <div className='foundedYear'>1993</div>
                     <div className='foundedYearTitle'> Founded</div>
                   </div>
                 </div>
@@ -155,7 +169,7 @@ const Home = () => {
             </div>
             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
               <div class="custom-block-wrap">
-                <img src={FarmImage}
+                <img src={ChildrenImage}
                   class="custom-block-image img-fluid" alt="" />
                 <div class="custom-block">
                   <div class="custom-block-body">
@@ -174,7 +188,7 @@ const Home = () => {
 
                 <div class="custom-block">
                   <div class="custom-block-body">
-                    <h5 class="mb-3">Poverty Development</h5>
+                    <h5 class="mb-3">Women Empowerment</h5>
 
                     <p>We help in improving livelihood of village women by conducting trainings and workshops for them to have income and have acheive financial Stability.</p>
                   </div>
@@ -191,7 +205,7 @@ const Home = () => {
 
                 <div class="custom-block">
                   <div class="custom-block-body">
-                    <h5 class="mb-3">Supply drinking water</h5>
+                    <h5 class="mb-3">Helping Farmers</h5>
 
                     <p>We Educate and help Farmers and Rural tribes by conducting trainings and give them land and pesticides to farm and have thier livelyhood.
                     </p>
@@ -227,24 +241,24 @@ const Home = () => {
                 <h5 class="site-footer-title mb-3">Contact Infomation</h5>
 
                 <p class="text-white d-flex mb-2">
-                  <i class="bi-telephone me-2"></i>
+                  <div class=" me-2"><BsTelephoneFill /></div>
 
                   <p class="site-footer-link">
-                    {/*  */}
+                  +91 85004 97940
                   </p>
                 </p>
 
                 <p class="text-white d-flex">
-                  <i class="bi-envelope me-2"></i>
+                  <div class="me-2"> <AiOutlineMail /></div>
 
                   <p class="site-footer-link">
-                    juturi_srinivas@yahoo.com
+                  ccare93@gmail.com
                   </p>
                 </p>
 
                 <p class="text-white d-flex mt-3">
-                  <i class="bi-geo-alt me-2"></i>
-                  SamataNagar, Prakasham District, Andhra Pradesh
+                  <div class=" me-2"><GoLocation /></div>
+                  SamataNagar, Prakasam District, Ongole Town, Andhra Pradesh
                 </p>
               </div>
             </div>
