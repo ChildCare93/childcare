@@ -196,7 +196,7 @@ const PrivacyPolicy = () => {
                         If you have any questions about this Privacy Policy, You can contact us:<br />
                         By email: ccare93@gmail.com<br />
                         By visiting this page on our website:https://www.ccare93.in/contact-us<br />
-                        By phone number: +91-9346534647<br />
+                        By phone number: +91-8500497940<br />
                     </p>
                 </div>
 
