@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../../containers/footer/Footer';
+import Footer from '../../containers/footer/Footer'
 import './PrivacyPolicy.css';
 
 const PrivacyPolicy = () => {
