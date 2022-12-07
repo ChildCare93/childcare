@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from '../../assets/images/cco_logo.jpeg';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsTelephoneFill } from 'react-icons/bs';
+import { GoLocation } from 'react-icons/go';
 
 const Footer = () => {
     return (
@@ -15,8 +18,11 @@ const Footer = () => {
                             <h5 class="site-footer-title mb-3">Quick Links</h5>
 
                             <ul class="footer-menu">
-                                <li class="footer-menu-item"><a href="#" class="footer-menu-link">Our Story</a></li>
-                                <li class="footer-menu-item"><a href="#" class="footer-menu-link">Causes</a></li>
+                                <li class="footer-menu-item"><a href="/#section_3" class="footer-menu-link">Our Story</a></li>
+                                <li class="footer-menu-item"><a href="/#section_5" class="footer-menu-link">Causes</a></li>
+                                <li class="footer-menu-item"><a href="/privacy-policy" class="footer-menu-link">Privacy Policy</a></li>
+                                <li class="footer-menu-item"><a href="/refund-policy" class="footer-menu-link">Refund Policy</a></li>
+                                <li class="footer-menu-item"><a href="/terms-&-conditions" class="footer-menu-link">Terms & Conditions</a></li>
                             </ul>
                         </div>
 
@@ -24,24 +30,24 @@ const Footer = () => {
                             <h5 class="site-footer-title mb-3">Contact Infomation</h5>
 
                             <p class="text-white d-flex mb-2">
-                                <i class="bi-telephone me-2"></i>
+                                <div class=" me-2"><BsTelephoneFill /></div>
 
                                 <p class="site-footer-link">
-                                    {/*  */}
+                                    +91 85004 97940
                                 </p>
                             </p>
 
                             <p class="text-white d-flex">
-                                <i class="bi-envelope me-2"></i>
+                                <div class="me-2"> <AiOutlineMail /></div>
 
                                 <p class="site-footer-link">
-                                    juturi_srinivas@yahoo.com
+                                    ccare93@gmail.com
                                 </p>
                             </p>
 
                             <p class="text-white d-flex mt-3">
-                                <i class="bi-geo-alt me-2"></i>
-                                SamataNagar, Prakasham District, Andhra Pradesh
+                                <div class=" me-2"><GoLocation /></div>
+                                SamataNagar, Prakasam District, Ongole Town, Andhra Pradesh
                             </p>
                         </div>
                     </div>

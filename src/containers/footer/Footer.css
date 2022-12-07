@@ -1,6 +1,6 @@
 #section_6 {
-    top: 550px;
-    position: relative;
+    /* top: 550px; */
+    /* position: relative; */
     overflow: hidden;
 }
 
@@ -34,4 +34,12 @@
 
 .footer-menu-item {
     list-style-type: none;
+}
+
+a:hover {
+    color: #5bc1ac;
+}
+
+li:hover {
+    color: #5bc1ac;
 }

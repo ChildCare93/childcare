@@ -23,24 +23,24 @@ const Navbar = () => {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center d-flex">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#section_1">Home</a>
+                            <a class="nav-link" aria-current="page" href="/#section_1">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section_3">About</a>
+                            <a class="nav-link" href="/#section_3">About</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 What we Do
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="/child-care">ChildCare</a></li>
-                                <li><a class="dropdown-item" href="/women-empowerment">Women Empowerment</a></li>
+                                <li><a class="dropdown-item" href="/#section_5">ChildCare</a></li>
+                                <li><a class="dropdown-item" href="/#section_5">Women Empowerment</a></li>
                                 {/* <li><hr class="dropdown-divider" /></li> */}
-                                <li><a class="dropdown-item" href="/agri">Horticulture / Agriculture</a></li>
+                                <li><a class="dropdown-item" href="/#section_5">Horticulture / Agriculture</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section_6">Contact</a>
+                            <a class="nav-link" href="/contact-us">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://razorpay.me/@childcareorganization" target="_blank">
